@@ -6,8 +6,11 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.9.17"
+python = "3.9.16"
 streamlit = "^1.25.0"
+streamlit-extras = "^0.3.0"
+streamlit-authenticator = "^0.2.2"
+st-pages = "^0.4.4"
 
 
 [build-system]
